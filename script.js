@@ -19,3 +19,7 @@ const drawCards = async (count) =>{
 
     return data;
 }
+
+const onDraw = () => {
+    console.log(drawCards(6));
+}
